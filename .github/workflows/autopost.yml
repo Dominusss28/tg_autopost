@@ -2,7 +2,7 @@ name: Telegram autopost
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # каждые 5 минут (минимум, который даёт GitHub)
+    - cron: "17 * * * *"   # каждые 5 минут (минимум, который даёт GitHub)
   workflow_dispatch:         # кнопка ручного запуска
 
 permissions:
